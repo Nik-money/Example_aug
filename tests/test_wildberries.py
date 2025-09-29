@@ -18,6 +18,6 @@ def test_open_first_card(driver):
 
     # Шаг 5: Получить название товара
     title = driver.find_element(By.TAG_NAME, 'h1')
-
+# Комментарий
     print(f"Товар '{title.text}' успешно открыт")
 
